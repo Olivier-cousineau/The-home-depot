@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "KeyGuard Municipal",
-  description: "Gestion municipale des clés de garde et recherche d'urgence.",
+  description: "Gestion intelligente des clés municipales.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
