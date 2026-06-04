@@ -248,7 +248,7 @@ export default function KeyGuardApp({ initialPage = "dashboard" }: { initialPage
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-municipal-100">Service municipal de garde</p>
               <h1 className="mt-2 text-3xl font-black sm:text-4xl">KeyGuard Municipal</h1>
-              <p className="mt-2 max-w-2xl text-municipal-100">Trouvez immédiatement la bonne clé, le bon anneau et le bon accès pendant une intervention d'urgence.</p>
+              <p className="mt-2 max-w-2xl text-municipal-100">Trouvez immédiatement la bonne clé, le bon anneau et le bon accès pendant une intervention d&apos;urgence.</p>
             </div>
             <Link href="/urgence" onClick={() => setPage("emergency")} className="rounded-2xl bg-white px-5 py-3 text-center font-black text-municipal-900 shadow-lg hover:bg-municipal-50">
               Activer le mode urgence
